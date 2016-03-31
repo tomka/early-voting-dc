@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="lib/jquery/jquery-2.2.1.min.js"></script>
+      <script src="lib/loki/lokijs.min.js"></script>
+      <script src="lib/d3/d3.min.js.js" charset="utf-8"></script>
+      <script src="early-voting.js"></script>
+      <script>
+        $(document).ready(function() {
+          EarlyVoting.init();
+        });
+      </script>
+      <style>
+        body {
+          font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+          fill: none;
+          stroke: #000;
+          shape-rendering: crispEdges;
+        }
+
+        .x.axis path {
+          display: none;
+        }
+
+        .line {
+          fill: none;
+          stroke: steelblue;
+          stroke-width: 1.5px;
+        }
+      </style>
+  </head>
+  <body>
+  </body>
+</html>
